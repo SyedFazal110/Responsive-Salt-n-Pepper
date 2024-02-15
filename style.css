@@ -1,0 +1,27 @@
+.img-width{
+    width: 200px;
+}
+.logo-img{
+    width: 160px;
+}
+
+#btn{
+    padding: 5px 7px;
+    border-radius: 30px;
+    color: #ff0000;
+}
+
+#navb{
+    display: block;
+}
+#menu{
+    display: none;
+}
+@media(max-width: 990px){
+    #navb{
+        display: none;
+    }
+    #menu{
+        display: block;
+    }
+}
